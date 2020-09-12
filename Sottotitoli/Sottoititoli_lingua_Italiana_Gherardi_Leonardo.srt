@@ -1,0 +1,240 @@
+﻿1
+00:00:00,000 --> 00:00:03,000
+Criterio 2.4.7 Focus Visibile.
+
+2
+00:00:04,420 --> 00:00:07,000
+Inziamo con il dire qual'è il suo scopo
+
+3
+00:00:07,000 --> 00:00:10,660
+il suo scopo è rendere più visibile agli utenti gli elementi attivi
+
+4
+00:00:11,160 --> 00:00:13,220
+quindi campi di form e link.
+
+5
+00:00:13,620 --> 00:00:16,700
+Il criterio 2.4.7 si può applicare con varie tecniche
+
+6
+00:00:16,700 --> 00:00:22,300
+queste in particolare sono la C15 la G195 e la G165.
+
+7
+00:00:22,300 --> 00:00:25,300
+La tecnica C15 ha lo scopo di evidenziare
+
+8
+00:00:25,300 --> 00:00:28,300
+campi di form e link per facilitare l'inserimento
+
+9
+00:00:28,300 --> 00:00:30,900
+dei dati o evidenziare link ipertestuali selezionati.
+
+10
+00:00:30,900 --> 00:00:35,300
+Essi per essere visualizzati meglio si devono evidenziare con un colore acceso.
+
+11
+00:00:38,000 --> 00:00:44,700
+Tecnica G195 anche questa tecnica ha lo scopo di agevolare l'inserimento dati da parte dell'utente.
+
+12
+00:00:44,700 --> 00:00:46,700
+E evidenziare un link su sfondo scuro
+
+13
+00:00:46,700 --> 00:00:52,430
+ciò avviene tramite l'evidenziazione dei campi che si attivano in base alla selezione dell'utente.
+
+14
+00:00:52,430 --> 00:00:55,860
+Il link deve essere evidenziato con un colore acceso e una barra gialla.
+
+15
+00:00:56,430 --> 00:01:00,000
+Tecnica G165 anche questa tecnica ha lo scopo di agevolare l'inserimento dati
+
+16
+00:01:00,000 --> 00:01:04,500
+ma nello specifico, dove solitamente è più difficile distinguere gli elementi
+
+17
+00:01:04,500 --> 00:01:06,930
+quindi su una pagina scura
+
+18
+00:01:06,930 --> 00:01:11,430
+Infatti Il campo si colorerà di un giallo intenso
+
+19
+00:01:12,000 --> 00:01:13,430
+ai bordi
+
+20
+00:01:13,430 --> 00:01:17,360
+questa cosa deve funzionare anche con il tab index.
+
+21
+00:01:17,360 --> 00:01:19,360
+Tecnica C15 appilicata.
+
+22
+00:01:19,360 --> 00:01:24,760
+Quindi qunado noi cliccheremo sul campo di input in modo appunto che risulti più visibile
+
+23
+00:01:24,760 --> 00:01:28,000
+esso assumerà un colore di sfondo molto acceso
+
+24
+00:01:28,000 --> 00:01:30,000
+In questo caso verde.
+
+25
+00:01:30,000 --> 00:01:34,530
+Per fare in modo che la scelta sia più visibile
+
+26
+00:01:34,530 --> 00:01:36,530
+L'opzione si evidenzierà.
+
+27
+00:01:36,530 --> 00:01:41,100
+Il link stessa cosa quando noi andremo sopra il link
+
+28
+00:01:42,100 --> 00:01:45,360
+si evidenzierà con un colore azzurro.
+
+29
+00:01:45,360 --> 00:01:48,960
+Adesso vedremo la tecnica G195 applicata.
+
+30
+00:01:49,660 --> 00:01:55,130
+Quando con il mouse andiamo a cliccare per inserire i dati
+
+31
+00:01:56,560 --> 00:02:01,200
+l'input si sottolineerà con un colore rosso.
+
+32
+00:02:02,030 --> 00:02:05,300
+Nel caso di una pagina scura il link deve diventare
+
+33
+00:02:05,300 --> 00:02:07,200
+giallo con un bordo giallo.
+
+34
+00:02:08,100 --> 00:02:11,100
+Adesso vedremo la tecnica G165 applicata.
+
+35
+00:02:11,100 --> 00:02:13,930
+Quindi in una pagina scura
+
+36
+00:02:15,000 --> 00:02:23,300
+l'elemento di input quando viene cliccato deve prendere un controno giallo
+
+37
+00:02:24,300 --> 00:02:25,300
+o comunque molto acceso
+
+38
+00:02:26,300 --> 00:02:28,360
+e la stessa cosa deve funzionare con il tab index.
+
+39
+00:02:29,800 --> 00:02:33,160
+Adesso vedremo a livello di codice come applicare la tecnica C15.
+
+40
+00:02:34,000 --> 00:02:35,160
+Partiamo dal checkbox.
+
+41
+00:02:35,160 --> 00:02:39,160
+Se il tipo di input è uguale al checkbox ed è focus
+
+42
+00:02:39,160 --> 00:02:45,160
+e l'input è uguale al bottone ed è focus
+
+43
+00:02:45,160 --> 00:02:50,500
+allora l'opzione si evidenzierà di un colore molto acceso.
+
+44
+00:02:50,500 --> 00:02:57,300
+Adesso vediamo l'input evidenziato quindi se l'input punto classe è focus
+
+45
+00:02:57,300 --> 00:03:01,200
+quindi viene cliccato assume un colore di sfondo diverso.
+
+46
+00:03:01,500 --> 00:03:04,130
+Adesso vediamo la tecnica C15 per il link evidenziato.
+
+47
+00:03:04,130 --> 00:03:06,130
+Se l'elemento a è hover
+
+48
+00:03:07,000 --> 00:03:09,900
+quindi l'utente ci passa sopra con il mouse.
+
+49
+00:03:09,900 --> 00:03:14,630
+O se è attivo se è focus assume un colore di sfondo diverso.
+
+50
+00:03:14,630 --> 00:03:18,360
+Come applicare la tecnica G195 a livello di codice.
+
+51
+00:03:18,360 --> 00:03:19,000
+Form elemnt.
+
+52
+00:03:19,000 --> 00:03:22,930
+Come vuole il criterio si mette dentro una tabella
+
+53
+00:03:22,930 --> 00:03:26,330
+se l'input punto classe è focus.
+
+54
+00:03:26,330 --> 00:03:30,400
+Allora assume un bordo bottom quindi sotto
+
+55
+00:03:30,400 --> 00:03:31,960
+di 5 pixel rosso.
+
+56
+00:03:31,960 --> 00:03:37,360
+Per il link su sfondo scuro se a punto classe è hover
+
+57
+00:03:37,360 --> 00:03:41,560
+allora assume un colore giallo e una sottolineatura doppia.
+
+58
+00:03:41,560 --> 00:03:43,930
+Come applicare la tecnica G165.
+
+59
+00:03:44,440 --> 00:03:48,200
+Se l'input punto classe è focus allora assume
+
+60
+00:03:48,200 --> 00:03:51,730
+un bordo di 4 pixel Giallo.
+

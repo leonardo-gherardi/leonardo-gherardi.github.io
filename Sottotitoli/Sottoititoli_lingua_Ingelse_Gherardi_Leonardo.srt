@@ -1,0 +1,240 @@
+﻿1
+00:00:00,000 --> 00:00:03,000
+Criterion 2.4.7 Focus Visible.
+
+2
+00:00:04,420 --> 00:00:07,000
+Let's start by saying what its purpose is
+
+3
+00:00:07,000 --> 00:00:10,660
+its purpose is to make active elements more visible to users
+
+4
+00:00:11,160 --> 00:00:13,220
+then form and link fields.
+
+5
+00:00:13,620 --> 00:00:16,700
+Criterion 2.4.7 can be applied with various techniques
+
+6
+00:00:16,700 --> 00:00:22,300
+these in particular are the C15, the G195 and the G165.
+
+7
+00:00:22,300 --> 00:00:25,300
+The C15 technique is intended to highlight
+
+8
+00:00:25,300 --> 00:00:28,300
+form and link fields to facilitate insertion
+
+9
+00:00:28,300 --> 00:00:30,900
+data or highlight selected hyperlinks.
+
+10
+00:00:30,900 --> 00:00:35,300
+To be visualized better they must be highlighted with a bright color.
+
+11
+00:00:38,000 --> 00:00:44,700
+G195 technique also this technique has the purpose of facilitating data entry by the user.
+
+12
+00:00:44,700 --> 00:00:46,700
+And highlight a link on a dark background
+
+13
+00:00:46,700 --> 00:00:52,430
+this is done by highlighting the fields that are activated based on the user's selection.
+
+14
+00:00:52,430 --> 00:00:55,860
+The link must be highlighted with a bright color and a yellow bar.
+
+15
+00:00:56,430 --> 00:01:00,000
+G165 technique also this technique has the purpose of facilitating data entry
+
+16
+00:01:00,000 --> 00:01:04,500
+but specifically, where it is usually more difficult to distinguish the elements
+
+17
+00:01:04,500 --> 00:01:06,930
+then on a dark page
+
+18
+00:01:06,930 --> 00:01:11,430
+In fact the field will turn an intense yellow
+
+19
+00:01:12,000 --> 00:01:13,430
+at the edges
+
+20
+00:01:13,430 --> 00:01:17,360
+this must also work with the index tab.
+
+21
+00:01:17,360 --> 00:01:19,360
+C15 technique applied.
+
+22
+00:01:19,360 --> 00:01:24,760
+So when we click on the input field so that it is more visible
+
+23
+00:01:24,760 --> 00:01:28,000
+esso assumerà un colore di sfondo molto acceso
+
+24
+00:01:28,000 --> 00:01:30,000
+In this case green.
+
+25
+00:01:30,000 --> 00:01:34,530
+To make the choice more visible
+
+26
+00:01:34,530 --> 00:01:36,530
+The option will be highlighted.
+
+27
+00:01:36,530 --> 00:01:41,100
+The link itself when we go over the link
+
+28
+00:01:42,100 --> 00:01:45,360
+it will be highlighted with a lightblue color.
+
+29
+00:01:45,360 --> 00:01:48,960
+Now we will see the G195 technique applied.
+
+30
+00:01:49,660 --> 00:01:55,130
+When we click with the mouse to enter the data
+
+31
+00:01:56,560 --> 00:02:01,200
+the input will be underlined with a red color.
+
+32
+00:02:02,030 --> 00:02:05,300
+In the case of a dark page the link must become
+
+33
+00:02:05,300 --> 00:02:07,200
+yellow with a yellow border.
+
+34
+00:02:08,100 --> 00:02:11,100
+Adesso vedremo la tecnica G165 applicata.
+
+35
+00:02:11,100 --> 00:02:13,930
+So in a dark page
+
+36
+00:02:15,000 --> 00:02:23,300
+the input element when clicked must take a yellow outline
+
+37
+00:02:24,300 --> 00:02:25,300
+or in any case very bright
+
+38
+00:02:26,300 --> 00:02:28,360
+and the same thing must work with the index tab.
+
+39
+00:02:29,800 --> 00:02:33,160
+Now we will see programmatically how to apply the C15 technique.
+
+40
+00:02:34,000 --> 00:02:35,160
+Let's start with the checkbox.
+
+41
+00:02:35,160 --> 00:02:39,160
+If the input type is the same as the checkbox and is focus
+
+42
+00:02:39,160 --> 00:02:45,160
+and the input is the same as the button and is focus
+
+43
+00:02:45,160 --> 00:02:50,500
+then the option will be highlighted in a very bright color.
+
+44
+00:02:50,500 --> 00:02:57,300
+Now we see the highlighted input so if the input dot class is focus
+
+45
+00:02:57,300 --> 00:03:01,200
+then it is clicked assumes a different background color.
+
+46
+00:03:01,500 --> 00:03:04,130
+Now let's see the C15 technique for the highlighted link.
+
+47
+00:03:04,130 --> 00:03:06,130
+If element a is hover
+
+48
+00:03:07,000 --> 00:03:09,900
+then the user passes over it with the mouse.
+
+49
+00:03:09,900 --> 00:03:14,630
+Or if it is active, if it is focus it takes on a different background color.
+
+50
+00:03:14,630 --> 00:03:18,360
+How to apply the G195 technique programmatically.
+
+51
+00:03:18,360 --> 00:03:19,000
+Form elemnt.
+
+52
+00:03:19,000 --> 00:03:22,930
+As the criterion wants, it is placed inside a table
+
+53
+00:03:22,930 --> 00:03:26,330
+if the input point class is focus.
+
+54
+00:03:26,330 --> 00:03:30,400
+Then it assumes a bottom edge then below
+
+55
+00:03:30,400 --> 00:03:31,960
+of 5 red pixels.
+
+56
+00:03:31,960 --> 00:03:37,360
+For the link on a dark background if a dot class is hover
+
+57
+00:03:37,360 --> 00:03:41,560
+then it takes on a yellow color and double underline.
+
+58
+00:03:41,560 --> 00:03:43,930
+How to apply the G165 technique.
+
+59
+00:03:44,440 --> 00:03:48,200
+If the input dot class is focus then it assumes
+
+60
+00:03:48,200 --> 00:03:51,730
+a 4 pixel yellow border.
+

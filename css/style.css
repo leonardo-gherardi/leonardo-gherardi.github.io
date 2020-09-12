@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+.centerale {
+    display: block;
+    margin: 0 auto;
+    text-align: left;
+    padding: 10px 10px 10px 20px;
+}
+
+.desk{
+    font-size: 20px;
+    line-height: 23px;
+}
