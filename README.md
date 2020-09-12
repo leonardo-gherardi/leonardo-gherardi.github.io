@@ -1,1 +1,1 @@
-# leonardo-gherardi.github.io
+# Documentazione Sottotitoli Criterio 2.4.7 Focus Visibile
